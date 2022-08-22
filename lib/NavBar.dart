@@ -1,3 +1,4 @@
+import 'package:australiaplus/widget/change_theme_button_widget.dart';
 import 'package:flutter/material.dart';
 
 class NavBar extends StatelessWidget {
@@ -75,7 +76,8 @@ class NavBar extends StatelessWidget {
             child: Row(
               children: [
                 Text('Light or Dark mode'),
-                Switch(value: false, onChanged: (newvalue) {}),
+                //Switch(value: false, onChanged: (newvalue) {}),
+                ChangeThemeButtonWidget(),
               ],
             ),
           ),
